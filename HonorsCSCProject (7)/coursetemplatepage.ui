@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CourseTemplatePage</class>
+ <widget class="QWidget" name="CourseTemplatePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>973</width>
+    <height>528</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qradialgradient(
+    cx: 0.5, cy: 0.5, radius: 0.8, 
+    fx: 0.5, fy: 0.5, 
+    stop: 0 #87CEEB, 
+    stop: 0.6 #4682B4, 
+    stop: 1 #1E3A8A);
+border: 2px solid #1E90FF;</string>
+  </property>
+  <widget class="QLabel" name="labelMajor">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>971</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Computer Science</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>581</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: qradialgradient(
+    cx: 0.5, cy: 0.5, radius: 0.8, 
+    fx: 0.5, fy: 0.5, 
+    stop: 0 #87CEEB, 
+    stop: 0.6 #4682B4, 
+    stop: 1 #1E3A8A);
+border: 2px solid #1E90FF;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>New Column</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>240</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 900 9pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MAT 206 -&gt; MAT 301 - &gt; PHY 215 / MAT 302</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>290</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 900 9pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CSC 101 - &gt; CSC 111 - &gt; CSC 211 &amp;&amp; 231 - &gt; CSC 215 &amp; 350 &amp; CSC 331 </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>160</y>
+     <width>391</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 900 9pt &quot;Segoe UI Black&quot;;
+text-decoration: underline;
+font: 9pt &quot;Segoe UI&quot;;
+font: 900 24pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Curriculum Map</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

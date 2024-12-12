@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MajorPathwayPage</class>
+ <widget class="QWidget" name="MajorPathwayPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1422</width>
+    <height>687</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qradialgradient(
+    cx: 0.5, cy: 0.5, radius: 0.8, 
+    fx: 0.5, fy: 0.5, 
+    stop: 0 #87CEEB, 
+    stop: 0.6 #4682B4, 
+    stop: 1 #1E3A8A);
+border: 2px solid #1E90FF;</string>
+  </property>
+  <widget class="QLabel" name="labelMajor">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>541</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>MAJOR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPrerequisites">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>541</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Prequisities</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCommonCoreQuestion">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>10</y>
+     <width>871</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Have you completed your commo core classes?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelFlexibleCoreQuestion">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>150</y>
+     <width>871</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Have you completed your flexible core classes?</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBoxCommonCore">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>631</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="title">
+    <string>Common Core Classes</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QCheckBox" name="checkBoxHistory">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBoxEnglish">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBoxScience">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBoxMath">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBoxFlexibleCore">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>340</y>
+     <width>731</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="title">
+    <string>Flexible Core Classes</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QCheckBox" name="checkBox_3">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_4">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_6">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_5">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_2">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButtonNext">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>590</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>80</y>
+     <width>721</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QRadioButton" name="radioCommonCoreYes">
+      <property name="text">
+       <string>Yes</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioCommonCoreNo">
+      <property name="text">
+       <string>No</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>210</y>
+     <width>721</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QRadioButton" name="radioFlexibleCoreYes">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Yes</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioFlexibleCoreNo">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>No</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

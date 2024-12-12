@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>945</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qradialgradient(
+    cx: 0.5, cy: 0.5, radius: 0.8, 
+    fx: 0.5, fy: 0.5, 
+    stop: 0 #87CEEB, 
+    stop: 0.6 #4682B4, 
+    stop: 1 #1E3A8A);
+border: 2px solid #1E90FF;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>941</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Please Choose Your Major!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>941</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 28px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    background-color: #00509E; /* BMCC-themed blue background */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Welcome to BMCC Student Community App!</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelSavedMajor">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>941</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 26px; /* Large text size for emphasis */
+    font-weight: bold; /* Bold text */
+    color: white; /* Text color */
+    border: 3px solid #003366; /* Optional border for emphasis */
+    border-radius: 15px; /* Smooth corners */
+    padding: 15px; /* Add space inside the label */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all text uppercase (optional) */
+    letter-spacing: 2px; /* Add space between letters for a modern look */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonComputerNetworkTech">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>501</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #0066CC, stop:1 #003366); /* Blue gradient */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    padding: 15px; /* Add padding for larger buttons */
+}
+
+QPushButton:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 153, 255, 0.8); /* Light blue glow effect */
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #003366, stop:1 #0066CC); /* Reverse gradient */
+}
+
+QPushButton:pressed {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #001A33, stop:1 #002A5C); /* Darker gradient when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Computer Network Technology</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonComputerScience">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>501</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>-1</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 12pt &quot;Segoe UI&quot;;
+	font: 36pt &quot;Segoe UI&quot;;
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #0066CC, stop:1 #003366); /* Blue gradient */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    padding: 15px; /* Add padding for larger buttons */
+}
+
+QPushButton:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 153, 255, 0.8); /* Light blue glow effect */
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #003366, stop:1 #0066CC); /* Reverse gradient */
+}
+
+QPushButton:pressed {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #001A33, stop:1 #002A5C); /* Darker gradient when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Computer Science</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonComputerInfoSystems">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>400</y>
+      <width>431</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #0066CC, stop:1 #003366); /* Blue gradient */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    padding: 15px; /* Add padding for larger buttons */
+}
+
+QPushButton:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 153, 255, 0.8); /* Light blue glow effect */
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #003366, stop:1 #0066CC); /* Reverse gradient */
+}
+
+QPushButton:pressed {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #001A33, stop:1 #002A5C); /* Darker gradient when pressed */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Computer Information Systems</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonGeographicInfoScience">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>300</y>
+      <width>431</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #0066CC, stop:1 #003366); /* Blue gradient */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    padding: 15px; /* Add padding for larger buttons */
+}
+
+QPushButton:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 153, 255, 0.8); /* Light blue glow effect */
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #003366, stop:1 #0066CC); /* Reverse gradient */
+}
+
+QPushButton:pressed {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #001A33, stop:1 #002A5C); /* Darker gradient when pressed */
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Geographic Information Science</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>945</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
